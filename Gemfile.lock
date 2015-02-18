@@ -76,6 +76,8 @@ GEM
     mysql2 (0.3.18)
     orm_adapter (0.5.0)
     polyglot (0.3.5)
+    puma (2.11.1)
+      rack (>= 1.1, < 2.0)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -183,6 +185,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   jquery-rails
   mysql2
+  puma
   rails (= 3.2.21)
   refinerycms (~> 2.1.0)
   refinerycms-acts-as-indexed (~> 1.0.0)
